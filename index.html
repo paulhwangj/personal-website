@@ -5,17 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paul Hwang</title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/57/18/5d/57185d2176d7cbaebdb74c00ce1b9ebf.gif">
     <link rel="stylesheet" href="./css/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-    <header>
-        This is the header
-    </header>
+<body id="page-top">
+    <div id="nav-and-header" class="text-white vh-100">
+        <nav class="navbar navbar-expand-lg px-4 navbar-dark"> <!-- px-4 is an example of responsive spacing being done via bootstrap (https://getbootstrap.com/docs/5.2/utilities/spacing/) -->
+            <div class="container-fluid" id="navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="./imgs/p-logo.png" alt="p-logo" width="60px" height="60px">
+                </a>
+                <!-- Allows for navbar hamburger menu? -->
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Other navigation items (not including navbar-brand) -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-link-color" aria-current="page" href="#page-top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#github">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#linkedin">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead text-center">
+            <div id="header-content"> <!-- my-auto auto sets the top and bottom margins -->
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                      <h1>Paul Hwang</h1>
+                    </div>
+                    <hr class="divider" id="header-dvdr">
+                    <div class="col-12">
+                        <p>Student & Aspiring Software Developer.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
     <main>
-        This is the main
+        <div id="education"></div>
+            <h2>Education</h2>
+        <div id="github"></div>
+        <div id="linkedin"></div>
     </main>
     <footer>
-        This is the footer
+        <p>This is the footer paragraph</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
 </body>
 </html>
