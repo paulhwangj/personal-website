@@ -84,6 +84,7 @@ header {
 main p {
     color: white;
     text-align: center;
+    margin: 0;
 }
 main h2 {
     color: red;
@@ -101,18 +102,23 @@ main h2 {
     border-color: white;
     border-width: 5px;
     opacity: 70%;
-    max-width: 80%;
+    width: 10%;
+    height: 5px;
 }
 
 /* -------- Education Section -------- */
 #education {
     width: 100%;
 }
+#education-content {
+    margin: 10px 15px 10px 15px;
+}
 #uwo-logo {
     width: 600px;
 }
 #uwo-info {
-    width: 600px;
+    padding: 50px;
+    border: 5px solid white;
 }
 
 /* -------- GitHub Section -------- */
@@ -137,5 +143,11 @@ footer p {
 /* (xl) X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
 /* (xxl) XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) { 
+    /* Keeps the uwo logo and the info looking good */
+    #education .container {
+        min-width: 1350px;
+        max-width: 100%;
+    }
+ }
 
