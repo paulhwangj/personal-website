@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body id="page-top">
-    <div id="nav-and-header" class="text-white vh-100">
+    <div id="nav-and-header" class="text-white vh-100 default-background">
         <nav class="navbar navbar-expand-lg px-4 navbar-dark"> <!-- px-4 is an example of responsive spacing being done via bootstrap (https://getbootstrap.com/docs/5.2/utilities/spacing/) -->
             <div class="container-fluid" id="navbar">
                 <a class="navbar-brand" href="#">
@@ -54,16 +54,21 @@
         </header>
     </div>
     <main>
-        <div id="education" class="d-flex flex-column justify-content-center align-items-center">
-            <h2 class="text-lowercase">Education</h2>
+        <div id="education" class="d-flex flex-column justify-content-center align-items-center default-background">
+            <h2>Education</h2>
             <hr class="divider" id="main-dvdr">
             <div class="container d-flex flex-xxl-row justify-content-around align-items-center flex-column justify-content-center align-items-center" id="education-content">
                 <img src="./imgs/uwo-logo-2.png" alt="uwo-logo" id="uwo-logo">
-                <div id="uwo-info" class="d-flex flex-column justify-content-center align-items-center">
-                    <h2 class="h2-exception">University of Wisconsin-Oshkosh</h2>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <p>GPA: 3.254 | Class of 2023</p>
-                </div>
+                <a href="https://uwosh.edu/" target="_blank">
+                    <div id="uwo-info" class="d-flex flex-column justify-content-center align-items-center">
+                        <h2 class="h2-exception">University of Wisconsin-Oshkosh</h2>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p>GPA: 3.254 | Class of 2023</p>
+                    </div>
+                </a>
+            </div>
+            <div class="container text-white d-flex flex-xxl-row justify-content-center">
+                <h3 class="white-h2">Related Courses</h3>
             </div>
         </div>
         <div id="github" class="d-flex justify-content-center">
@@ -74,7 +79,7 @@
         </div>
     </main>
     <footer>
-        <p>This is the footer paragraph</p>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>

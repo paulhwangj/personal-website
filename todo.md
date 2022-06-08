@@ -8,6 +8,8 @@
 
 ## Javascript Ideas
 - Have text and images fade in as the user scrolls throughout the site
+- Have a toggle button that puts the website in a "dark" or "light" mode [[creative toggles](https://codemyui.com/tag/toggle-switch/)]
 
 ## Education Section
 - Add a toggle titled "Related Courses" that reveals a drop down that contains a gallery list of all the cs courses I've taken.
+- Have the "University of Wisconsin-Oshkosh" box fill up with yellow and change text to black when hovered over
