@@ -108,6 +108,7 @@ main .white-h2 {
     color: white;
     font-size:35px;
     font-weight: 100;
+    text-align: center;
 }
 #main-dvdr {
     color: white;
@@ -132,6 +133,18 @@ main .white-h2 {
     padding: 45px;
     border: 5px solid white;
 }
+/* Adds padding to hte related courses h2 until min-widrh 1400px */
+#related-courses {
+    /* Sets some space between the uwo logo/info and this div */
+    margin-top: 80px;
+}
+.gallery-item {
+    flex:1;
+    max-width: 600px;
+}
+.gallery-item-img {
+    width: 100%;
+}
 
 /* -------- GitHub Section -------- */
 /* ... */
@@ -140,6 +153,11 @@ main .white-h2 {
 /* ... */
 
 /* -------- Footer Section -------- */
+footer {
+    margin-top: 50px;
+    background: yellow;
+    height: 200px;
+}
 footer p {
     color: white;
     text-align: center;
@@ -147,7 +165,7 @@ footer p {
 
 /* -------- Media Queries-------- */
 /* (sm) Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { }
  /* (md) Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  }
 /* (lg) Large devices (desktops, 992px and up) */
@@ -160,6 +178,10 @@ footer p {
     #education .container {
         min-width: 1350px;
         max-width: 100%;
+    }
+    /* Adds padding to the related course when it gets too condense */
+    #related-courses {
+        margin-top: 0px;
     }
  }
 
