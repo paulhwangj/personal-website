@@ -1,6 +1,6 @@
 # :computer: paulhwangj.github.io
 [ This project is incomplete as of June 7th, 2022. ]  
-Hey there :) <3  
+Hey there :)  
 A personal website that I'm making as a project for fun.  
 I was inspired by JasonD94:  
 &nbsp;&nbsp;&nbsp;&nbsp;[downing.io](https://downing.io/).  
