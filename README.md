@@ -1,5 +1,5 @@
 # :computer: paulhwangj.github.io
-[ This project is incomplete as of June 7th, 2022. ]  
+[ This project is incomplete as of July 2nd, 2022. ]  
 Hey there :)  
 A personal website that I'm making as a project for fun.  
 I was inspired by JasonD94:  
